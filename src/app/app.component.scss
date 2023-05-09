@@ -1,0 +1,35 @@
+div {
+    
+    // display: grid;
+    // grid-template-areas: 
+    //     "headerGta headerGta headerGta"
+    //     "navbarGta contentGta contentGta"
+    //     "navbarGta contentGta contentGta"
+    //     "navbarGta contentGta contentGta"
+    //     "footerGta footerGta footerGta"
+    // ;
+
+    // height: 100vh;
+    // gap: 16px;
+
+    app-header {
+        background-color: red;
+        grid-area: headerGta;
+    }
+
+    app-navbar {
+        background-color: yellow;
+        grid-area: navbarGta;
+    }
+
+    app-content {
+        background-color: blue;
+        grid-area: contentGta;
+    }
+
+    app-footer {
+        background-color: purple;
+        grid-area: footerGta;
+    }
+
+}
